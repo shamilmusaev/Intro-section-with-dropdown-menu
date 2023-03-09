@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+  
+}
+
+html{
+    background-color: hsl(0, 0%, 98%);
+}
+header {
+  height: 10vh;
+  width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.nav_group_ul{
+    margin-left: 50px;
+     
+}
+
+nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 15px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.nav_group{
+    display: flex;
+    align-items: center;
+}
+
+.nav_logo{
+    margin-top: 10px;
+}
+
+.features_popup, .company_popup{
+    display: none;
+}
+
+
+.features_popup_show{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 120px;
+    top: 70px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    background-color: white;
+    line-height: 1.7;
+}
+
+
+.features_popup_show li{
+    text-align: left;
+}
+
+
+.features_popup_show li a {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.features_popup_show li a img{
+    padding-right: 10px;
+    text-align: left;
+    
+}
+
+
+.company_popup_show{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 290px;
+    top: 70px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    background-color: white;
+    line-height: 1.7;
+}
+
+
+
+#openBtn{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 100px 0 100px;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section1 h1{
+    font-size: 60px;
+    margin-top: 130px;
+}
+
+.section1 p{
+    line-height: 1.5;
+    color: hsl(0, 0%, 41%);
+}
+
+.section1 a{
+    text-decoration: none;
+    border:1px solid black;
+    color: white;
+    background: black;
+    padding: 15px;
+    text-align: center;
+    width: 140px;
+    border-radius: 10px;
+}
+
+.section1 a:hover{
+    background-color: hsl(0, 0%, 98%);
+    border:1px solid black;
+    color: black;
+    font-weight: 600;
+
+}
+
+.section2 img{
+    width: 450px;
+}
+
+.comp_logos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comp_logos_img{
+    padding-left: 30px;
+}
